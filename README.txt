@@ -22,6 +22,3 @@ Use and distribution of the included LFP data is also subject to approval from B
 
 While the code has been carefully checked for bugs and applied to many datasets, we do not provide warranties of any kind.  
 The authors take no responsibility for support or maintenance of the code, although feedback is appreciated.  
-
-Latest version will be available at:
-https://github.com/natalieklein/torus-graphs
