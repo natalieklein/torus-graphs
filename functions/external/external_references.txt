@@ -1,0 +1,14 @@
+References for external functions:
+
+CircStat2012a:
+P. Berens, CircStat: A Matlab Toolbox for Circular Statistics, Journal of Statistical Software, Volume 31, Issue 10, 2009
+http://www.jstatsoft.org/v31/i10
+https://www.mathworks.com/matlabcentral/fileexchange/10676-circular-statistics-toolbox-directional-statistics
+
+
+
+circ_ksdensity:
+Kernel density estimation for circular functions version 1.5.0.0 by Dylan Muir
+http://dylan-muir.com/articles/circular_kernel_estimation/
+
+https://www.mathworks.com/matlabcentral/fileexchange/44072-kernel-density-estimation-for-circular-functions?s_tid=prof_contriblnk
