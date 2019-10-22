@@ -4,8 +4,9 @@ Version 1.0, October 17, 2019
 
 A tutorial is included along with this code in Torus_Graph_Tutorial.pdf. 
 
-The tutorial and code coincide with the supplement of our publication: 
-Klein, N., Orellana, J., Brincat, S., Miller, E. K. and Kass, R. E.(2019). (.zip) Supplement code and data to “Torus Graphs for Multivariate Phase Coupling Analysis”, The Annals of Applied Statistics. 
+The code and tutorial supplement our publication:
+
+Klein, N., Orellana, J., Brincat, S., Miller, E. K. and Kass, R. E. (2019). “Torus Graphs for Multivariate Phase Coupling Analysis”, The Annals of Applied Statistics. 
 
 ==========
 COPYRIGHT
