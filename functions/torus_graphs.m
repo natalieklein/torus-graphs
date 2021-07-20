@@ -111,7 +111,7 @@ if sel_mode(2) || sel_mode(3)
     edges_on=all_edges(all_pvals<=alpha_level,:);
     
     %% plot network
-    TG = graph(edges_on(:,1), edges_on(:,2));
+    %TG = graph(edges_on(:,1), edges_on(:,2));
 % 
 else
     t_hat=[];
