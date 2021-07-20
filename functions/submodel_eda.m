@@ -22,7 +22,7 @@ pval_samp_marg(pval_samp_marg==0)=pval_samp_marg(pval_samp_marg==0) + 1e-100; % 
 % combining the p-vals in a fisher test
 Comb_stat_samp_marg = -2*sum(log(pval_samp_marg));
 dofs=2*length(pval_samp_marg);
-group_pval_samp_marg = chi2cdf(Comb_stat_samp_marg,dofs,'upper'); 
+group_pval_samp_marg = 1 - chi2cdf(Comb_stat_samp_marg,dofs); 
 
 marginal.pvals=pval_samp_marg;
 marginal.group_pval=group_pval_samp_marg;
@@ -49,8 +49,8 @@ Comb_stat_samp_sum = -2*sum(log(pval_samp_sum));
 Comb_stat_samp_diff = -2*sum(log(pval_samp_diff));
 dofs=2*num_pairs;
 
-group_pval_samp_sum = chi2cdf(Comb_stat_samp_sum,dofs,'upper'); 
-group_pval_samp_diff = chi2cdf(Comb_stat_samp_diff,dofs,'upper');
+group_pval_samp_sum = 1 - chi2cdf(Comb_stat_samp_sum,dofs); 
+group_pval_samp_diff = 1 - chi2cdf(Comb_stat_samp_diff,dofs);
 
 
 phase_sums.pvals=pval_samp_sum;

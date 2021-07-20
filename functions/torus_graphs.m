@@ -107,7 +107,7 @@ if sel_mode(2) || sel_mode(3)
 %         w_hat(inc)=phi_hat(inds_edge)'*phi_hat(inds_edge);
 %         w_hat_ste(inc)=2*sqrt(phi_hat(inds_edge)'*Sigma_hat(inds_edge,inds_edge)*phi_hat(inds_edge));
     end
-    all_pvals = chi2cdf(t_hat,dofs_edges,'upper');
+    all_pvals = 1 - chi2cdf(t_hat,dofs_edges);
     edges_on=all_edges(all_pvals<=alpha_level,:);
     
     %% plot network
