@@ -1,6 +1,8 @@
 Matlab code for fitting phase coupling networks using Torus Graphs.
 
-Version 1.0, October 17, 2019
+Modifications to work with Octave:
+- Install statistics and mapping packages (see octave_setup.m for install commands for these and dependencies)
+- In calls to chi2cdf, use 1 - chi2cdf(X, N) as there is no 'upper' argument in Octave statistics package version
 
 A tutorial is included along with this code in Torus_Graph_Tutorial.pdf. We recommend using the tutorial to familiarize yourself with the code.
 
