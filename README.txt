@@ -1,5 +1,7 @@
 Matlab code for fitting phase coupling networks using Torus Graphs.
 
+See github.com/josue-orellana/pyTG/ for a Python implementation.
+
 Version 1.0, October 17, 2019
 
 A tutorial is included along with this code in Torus_Graph_Tutorial.pdf. We recommend using the tutorial to familiarize yourself with the code.
